@@ -725,7 +725,7 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/tf_transformations_release.git
+      url: https://github.com/tgenovese/tf_transformations-release.git
       version: 1.1.0-1
     source:
       test_pull_requests: true
