@@ -195,7 +195,10 @@ Rebloomed to fix Debian dependencies.
 
 ## tf_transformations
 
-Forked to add debian/ros-jazzy-tf-transformations_1.1.0-1_bookworm branch.
+Forked to add `debian/ros-jazzy-tf-transformations_1.1.0-1_bookworm` tag.
+
+Fixed the `rosdep` rule for `python3-transforms3d` for Bookworm and rebloomed
+the package to create the tag (with debincr=2).
 
 ## tinyxml2_vendor
 
