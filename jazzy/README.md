@@ -47,6 +47,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## geographic_info
+
+Rebloomed to fix Debian dependencies of geographic_msgs.
+
 ## interactive_markers
 
 Rebloomed to fix Debian dependencies.
