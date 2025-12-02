@@ -170,6 +170,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## rospy_message_converter
+
+Rebloomed to fix Debian dependencies of rclpy_message_converter_msgs.
+
 ## rqt
 
 Rebloomed to fix Debian dependencies of:
