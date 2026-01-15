@@ -43,6 +43,21 @@ repositories:
       url: https://github.com/ros/angles.git
       version: ros2
     status: maintained
+  async_web_server_cpp:
+    doc:
+      type: git
+      url: https://github.com/fkie/async_web_server_cpp.git
+      version: ros2-releases
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/async_web_server_cpp-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/fkie/async_web_server_cpp.git
+      version: ros2-develop
+    status: maintained
   class_loader:
     doc:
       type: git
