@@ -193,6 +193,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## rtcm_msgs
+
+Rebloomed to fix Debian dependencies.
+
 ## spdlog_vendor
 
 Rebloomed to fix Debian dependencies.
