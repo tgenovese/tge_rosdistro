@@ -819,6 +819,27 @@ repositories:
       url: https://github.com/ros2/tlsf.git
       version: jazzy
     status: maintained
+  ublox:
+    doc:
+      type: git
+      url: https://github.com/KumarRobotics/ublox.git
+      version: ros2
+    release:
+      packages:
+      - ublox
+      - ublox_gps
+      - ublox_msgs
+      - ublox_serialization
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/ublox-release.git
+      version: 2.3.0-4
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/KumarRobotics/ublox.git
+      version: ros2
+    status: maintained
   unique_identifier_msgs:
     doc:
       type: git

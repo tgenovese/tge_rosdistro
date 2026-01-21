@@ -220,6 +220,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## ublox
+
+Rebloomed to fix Debian dependencies.
+
 ## unique_identifier_msgs
 
 Rebloomed to fix Debian dependencies.
