@@ -833,7 +833,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/ublox-release.git
-      version: 2.3.0-4
+      version: 2.3.0-5
     source:
       test_pull_requests: true
       type: git
