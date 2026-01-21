@@ -228,6 +228,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## ublox_dgnss
+
+Included to build a more recent version (0.7.0) than the one in the sync (0.6.1).
+
 ## unique_identifier_msgs
 
 Rebloomed to fix Debian dependencies.
