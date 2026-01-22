@@ -91,6 +91,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## ouster-ros
+
+Included to build a more recent version (0.13.15) than the one in the sync (0.11.1).
+
 ## pcl_msgs
 
 Rebloomed to fix Debian dependencies.
