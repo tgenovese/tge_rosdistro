@@ -25,6 +25,12 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## cpp_polyfills
+
+Rebloomed to fix Debian dependencies of:
+ * tcb_span
+ * tl_expected
+
 ## demos
 
 Rebloomed to fix Debian dependencies of:
