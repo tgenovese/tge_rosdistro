@@ -99,7 +99,7 @@ Rebloomed to fix Debian dependencies.
 
 Remove dependency on connextdds as it does not exist on bookworm.
 
-See [this commit](https://github.com/tgenovese/rmw_implementation-release/commit/c9ac83b35e368aebc58e5c4ffd50321546b06f9e).
+See [this commit](https://github.com/tgenovese/rmw_implementation-release/commit/c59fc1c3d9c2e0631c7932220c12e606322339e4).
 
 ## robot_state_publisher
 
