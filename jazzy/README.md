@@ -31,12 +31,6 @@ Rebloomed to fix Debian dependencies of:
  * tcb_span
  * tl_expected
 
-## demos
-
-Rebloomed to fix Debian dependencies of:
- * action_tutorials_interfaces
- * pendulum_msgs
-
 ## depthimage_to_laserscan
 
 Rebloomed to fix Debian dependencies.
@@ -61,19 +55,11 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies of geographic_msgs.
 
-## interactive_markers
-
-Rebloomed to fix Debian dependencies.
-
 ## joystick_drivers
 
 Rebloomed to fix Debian dependencies of sdl2_vendor.
 
 ## kdl_parser
-
-Rebloomed to fix Debian dependencies.
-
-## keyboard_handler
 
 Rebloomed to fix Debian dependencies.
 
@@ -97,10 +83,6 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
-## ouster-ros
-
-Included to build a more recent version (0.13.15) than the one in the sync (0.11.1).
-
 ## pcl_msgs
 
 Rebloomed to fix Debian dependencies.
@@ -109,33 +91,7 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
-## pluginlib
-
-Rebloomed to fix Debian dependencies.
-
 ## python_cmake_module
-
-Rebloomed to fix Debian dependencies.
-
-## python_qt_binding
-
-Rebloomed to fix Debian dependencies.
-
-## rcl_interfaces
-
-Rebloomed to fix Debian dependencies of:
- * action_msgs
- * builtin_interfaces
- * composition_interfaces
- * lifecycle_msgs
- * rcl_interfaces
- * rosgraph_msgs
- * service_msgs
- * statistics_msgs
- * test_msgs
- * type_description_interfaces
-
-## rmw_dds_common
 
 Rebloomed to fix Debian dependencies.
 
@@ -146,10 +102,6 @@ Remove dependency on connextdds as it does not exist on bookworm.
 See [this commit](https://github.com/tgenovese/rmw_implementation-release/commit/c9ac83b35e368aebc58e5c4ffd50321546b06f9e).
 
 ## robot_state_publisher
-
-Rebloomed to fix Debian dependencies.
-
-## ros2cli_common_extensions
 
 Rebloomed to fix Debian dependencies.
 
@@ -188,13 +140,6 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies of rclpy_message_converter_msgs.
 
-## rqt
-
-Rebloomed to fix Debian dependencies of:
- * rqt_gui
- * rqt_gui_cpp
- * rqt_py_common
-
 ## rqt_common_plugins
 
 Rebloomed to fix Debian dependencies.
@@ -211,10 +156,6 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
-## tango_icons_vendor
-
-Rebloomed to fix Debian dependencies.
-
 ## test_interface_files
 
 Rebloomed to fix Debian dependencies.
@@ -226,10 +167,6 @@ Forked to add `debian/ros-jazzy-tf-transformations_1.1.0-1_bookworm` tag.
 Fixed the `rosdep` rule for `python3-transforms3d` for Bookworm and rebloomed
 the package to create the tag (with debincr=2).
 
-## tinyxml2_vendor
-
-Rebloomed to fix Debian dependencies.
-
 ## tlsf
 
 Rebloomed to fix Debian dependencies.
@@ -237,10 +174,6 @@ Rebloomed to fix Debian dependencies.
 ## ublox
 
 Rebloomed to fix Debian dependencies.
-
-## ublox_dgnss
-
-Included to build a more recent version (0.7.0) than the one in the sync (0.6.1).
 
 ## unique_identifier_msgs
 

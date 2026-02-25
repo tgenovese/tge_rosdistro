@@ -36,7 +36,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/angles-release.git
-      version: 1.16.0-6
+      version: 1.16.1-1   # FIXME
     source:
       test_pull_requests: true
       type: git
@@ -108,44 +108,6 @@ repositories:
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
       version: main
     status: maintained
-  demos:
-    doc:
-      type: git
-      url: https://github.com/ros2/demos.git
-      version: jazzy
-    release:
-      packages:
-      - action_tutorials_cpp
-      - action_tutorials_interfaces
-      - action_tutorials_py
-      - composition
-      - demo_nodes_cpp
-      - demo_nodes_cpp_native
-      - demo_nodes_py
-      - dummy_map_server
-      - dummy_robot_bringup
-      - dummy_sensors
-      - image_tools
-      - intra_process_demo
-      - lifecycle
-      - lifecycle_py
-      - logging_demo
-      - pendulum_control
-      - pendulum_msgs
-      - quality_of_service_demo_cpp
-      - quality_of_service_demo_py
-      - topic_monitor
-      - topic_statistics_demo
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/demos-release.git
-      version: 0.33.5-2
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros2/demos.git
-      version: jazzy
-    status: developed
   depthimage_to_laserscan:
     doc:
       type: git
@@ -247,22 +209,6 @@ repositories:
       url: https://github.com/ros-geographic-info/geographic_info.git
       version: ros2
     status: maintained
-  interactive_markers:
-    doc:
-      type: git
-      url: https://github.com/ros-visualization/interactive_markers.git
-      version: jazzy
-    release:
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/interactive_markers-release.git
-      version: 2.5.4-3
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros-visualization/interactive_markers.git
-      version: jazzy
-    status: maintained
   joystick_drivers:
     doc:
       type: git
@@ -302,22 +248,6 @@ repositories:
       url: https://github.com/ros/kdl_parser.git
       version: jazzy
     status: maintained
-  keyboard_handler:
-    doc:
-      type: git
-      url: https://github.com/ros-tooling/keyboard_handler.git
-      version: jazzy
-    release:
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/keyboard_handler-release.git
-      version: 0.3.1-3
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros-tooling/keyboard_handler.git
-      version: jazzy
-    status: developed
   libyaml_vendor:
     release:
       tags:
@@ -393,25 +323,6 @@ repositories:
       url: https://github.com/ros2/orocos_kdl_vendor.git
       version: jazzy
     status: developed
-  ouster-ros:
-    doc:
-      type: git
-      url: https://github.com/ouster-lidar/ouster-ros.git
-      version: rolling-devel
-    release:
-      packages:
-      - ouster_ros
-      - ouster_sensor_msgs
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/ouster-ros-release.git
-      version: 0.13.15-1
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ouster-lidar/ouster-ros.git
-      version: rolling-devel
-    status: developed
   pcl_msgs:
     release:
       tags:
@@ -435,22 +346,6 @@ repositories:
       url: https://github.com/ros2/performance_test_fixture.git
       version: jazzy
     status: maintained
-  pluginlib:
-    doc:
-      type: git
-      url: https://github.com/ros/pluginlib.git
-      version: jazzy
-    release:
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/pluginlib-release.git
-      version: 5.4.2-3
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros/pluginlib.git
-      version: jazzy
-    status: maintained
   python_cmake_module:
     doc:
       type: git
@@ -466,65 +361,6 @@ repositories:
       url: https://github.com/ros2/python_cmake_module.git
       version: jazzy
     status: developed
-  python_qt_binding:
-    doc:
-      type: git
-      url: https://github.com/ros-visualization/python_qt_binding.git
-      version: jazzy
-    release:
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/python_qt_binding-release.git
-      version: 2.2.1-2
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros-visualization/python_qt_binding.git
-      version: jazzy
-    status: maintained
-  rcl_interfaces:
-    doc:
-      type: git
-      url: https://github.com/ros2/rcl_interfaces.git
-      version: jazzy
-    release:
-      packages:
-      - action_msgs
-      - builtin_interfaces
-      - composition_interfaces
-      - lifecycle_msgs
-      - rcl_interfaces
-      - rosgraph_msgs
-      - service_msgs
-      - statistics_msgs
-      - test_msgs
-      - type_description_interfaces
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/rcl_interfaces-release.git
-      version: 2.0.2-3
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros2/rcl_interfaces.git
-      version: jazzy
-    status: maintained
-  rmw_dds_common:
-    doc:
-      type: git
-      url: https://github.com/ros2/rmw_dds_common.git
-      version: jazzy
-    release:
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/rmw_dds_common-release.git
-      version: 3.1.0-3
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros2/rmw_dds_common.git
-      version: jazzy
-    status: maintained
   rmw_implementation:
     doc:
       type: git
@@ -534,7 +370,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/rmw_implementation-release.git
-      version: 2.15.5-2
+      version: 2.15.6-1   # FIXME MAYBE
     source:
       test_pull_requests: true
       type: git
@@ -555,21 +391,6 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/robot_state_publisher.git
-      version: jazzy
-    status: maintained
-  ros2cli_common_extensions:
-    doc:
-      type: git
-      url: https://github.com/ros2/ros2cli_common_extensions.git
-      version: jazzy
-    release:
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/ros2cli_common_extensions-release.git
-      version: 0.3.0-4
-    source:
-      type: git
-      url: https://github.com/ros2/ros2cli_common_extensions.git
       version: jazzy
     status: maintained
   ros_testing:
@@ -716,28 +537,6 @@ repositories:
       url: https://github.com/DFKI-NI/rospy_message_converter.git
       version: jazzy
     status: maintained
-  rqt:
-    doc:
-      type: git
-      url: https://github.com/ros-visualization/rqt.git
-      version: jazzy
-    release:
-      packages:
-      - rqt
-      - rqt_gui
-      - rqt_gui_cpp
-      - rqt_gui_py
-      - rqt_py_common
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/rqt-release.git
-      version: 1.6.0-3
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros-visualization/rqt.git
-      version: jazzy
-    status: maintained
   rqt_common_plugins:
     doc:
       type: git
@@ -796,17 +595,6 @@ repositories:
       url: https://github.com/ros2/spdlog_vendor.git
       version: jazzy
     status: maintained
-  tango_icons_vendor:
-    release:
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/tango_icons_vendor-release.git
-      version: 0.3.0-4
-    source:
-      type: git
-      url: https://github.com/ros-visualization/tango_icons_vendor.git
-      version: jazzy
-    status: maintained
   test_interface_files:
     doc:
       type: git
@@ -838,22 +626,6 @@ repositories:
       type: git
       url: https://github.com/DLu/tf_transformations.git
       version: main
-    status: maintained
-  tinyxml2_vendor:
-    doc:
-      type: git
-      url: https://github.com/ros2/tinyxml2_vendor.git
-      version: jazzy
-    release:
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/tinyxml2_vendor-release.git
-      version: 0.9.1-4
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros2/tinyxml2_vendor.git
-      version: jazzy
     status: maintained
   tlsf:
     doc:
@@ -891,28 +663,6 @@ repositories:
       type: git
       url: https://github.com/KumarRobotics/ublox.git
       version: ros2
-    status: maintained
-  ublox_dgnss:
-    doc:
-      type: git
-      url: https://github.com/aussierobots/ublox_dgnss.git
-      version: main
-    release:
-      packages:
-      - ntrip_client_node
-      - ublox_dgnss
-      - ublox_dgnss_node
-      - ublox_nav_sat_fix_hp_node
-      - ublox_ubx_interfaces
-      - ublox_ubx_msgs
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/ublox_dgnss-release.git
-      version: 0.7.0-1
-    source:
-      type: git
-      url: https://github.com/aussierobots/ublox_dgnss.git
-      version: main
     status: maintained
   unique_identifier_msgs:
     doc:
