@@ -11,5 +11,13 @@ distributions:
     distribution_status: active
     distribution_type: ros2
     python_version: 3
+  rolling:
+    distribution:
+    - https://raw.githubusercontent.com/ros/rosdistro/refs/tags/rolling/2026-02-25/rolling/distribution.yaml
+    - rolling/distribution.yaml
+    distribution_cache: https://raw.githubusercontent.com/tgenovese/tge_rosdistro/main/rosdistro_cache/rolling-cache.yaml.gz
+    distribution_status: active
+    distribution_type: ros2
+    python_version: 3
 type: index
 version: 4
