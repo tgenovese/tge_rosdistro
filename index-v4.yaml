@@ -13,10 +13,10 @@ distributions:
     python_version: 3
   lyrical:
     distribution:
-    - https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/lyrical/distribution.yaml
+    - https://raw.githubusercontent.com/ros/rosdistro/refs/tags/lyrical/2026-05-22/lyrical/distribution.yaml
     - lyrical/distribution.yaml
     distribution_cache: https://raw.githubusercontent.com/tgenovese/tge_rosdistro/main/rosdistro_cache/lyrical-cache.yaml.gz
-    distribution_status: pre-release
+    distribution_status: active
     distribution_type: ros2
     python_version: 3
   rolling:
