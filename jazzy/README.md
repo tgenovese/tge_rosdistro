@@ -113,12 +113,6 @@ Rebloomed to fix Debian dependencies of ros_testing.
 
 Rebloomed to fix Debian dependencies of turtlesim.
 
-## rosidl_core
-
-Rebloomed to fix Debian dependencies of rosidl_core_generators,
-most notably to get `ros-jazzy-rosidl-typesupport-introspection-c`
-and `ros-jazzy-rosidl-typesupport-introspection-cpp` dependencies.
-
 ## rosidl_dds
 
 Rebloomed to fix Debian dependencies of rosidl_generator_dds_idl.
@@ -162,7 +156,7 @@ Rebloomed to fix Debian dependencies.
 
 ## tf_transformations
 
-Forked to add `debian/ros-jazzy-tf-transformations_1.1.0-1_bookworm` tag.
+Forked to add `debian/ros-jazzy-tf-transformations_1.1.1-2_bookworm` tag.
 
 Fixed the `rosdep` rule for `python3-transforms3d` for Bookworm and rebloomed
 the package to create the tag (with debincr=2).

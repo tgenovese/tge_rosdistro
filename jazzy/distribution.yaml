@@ -430,25 +430,6 @@ repositories:
       url: https://github.com/ros/ros_tutorials.git
       version: jazzy
     status: maintained
-  rosidl_core:
-    doc:
-      type: git
-      url: https://github.com/ros2/rosidl_core.git
-      version: jazzy
-    release:
-      packages:
-      - rosidl_core_generators
-      - rosidl_core_runtime
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/rosidl_core-release.git
-      version: 0.2.0-4
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros2/rosidl_core.git
-      version: jazzy
-    status: maintained
   rosidl_dds:
     doc:
       type: git
@@ -620,7 +601,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/tf_transformations-release.git
-      version: 1.1.0-2
+      version: 1.1.1-1
     source:
       test_pull_requests: true
       type: git
