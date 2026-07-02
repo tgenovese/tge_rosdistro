@@ -5,7 +5,7 @@
 distributions:
   jazzy:
     distribution:
-    - https://raw.githubusercontent.com/ros/rosdistro/refs/tags/jazzy/2026-04-13/jazzy/distribution.yaml
+    - https://raw.githubusercontent.com/ros/rosdistro/refs/tags/jazzy/2026-06-18/jazzy/distribution.yaml
     - jazzy/distribution.yaml
     distribution_cache: https://raw.githubusercontent.com/tgenovese/tge_rosdistro/main/rosdistro_cache/jazzy-cache.yaml.gz
     distribution_status: active
