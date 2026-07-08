@@ -71,7 +71,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/diagnostics-release.git
-      version: 4.2.7-1
+      version: 4.2.7-2
     source:
       test_pull_requests: true
       type: git
