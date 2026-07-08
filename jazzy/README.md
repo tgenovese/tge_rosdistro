@@ -15,6 +15,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## diagnostics
+
+Rebloomed to fix Debian dependencies of diagnostic_updater.
+
 ## foonathan_memory_vendor
 
 Rebloomed to fix Debian dependencies.
